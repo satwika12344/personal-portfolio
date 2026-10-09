@@ -1,44 +1,47 @@
-# Paragati Satwika — Personal Portfolio
+# Personal Portfolio Website
 
-A responsive, accessible personal portfolio built with semantic HTML, modern CSS, and vanilla JavaScript.
+A responsive personal portfolio website for **Paragati Satwika**, a B.Tech Computer Science and Engineering student at Stanley College of Engineering & Technology for Women, Hyderabad.
+
+This website was developed as part of the **Full Stack Development (FSD) Assignment 1**.
+
+## Sections
+- Home
+- About Me
+- Education
+- Skills
+- Projects
+- Contact
 
 ## Features
+- Responsive design for desktop, tablet, and mobile devices
+- Dark mode and light mode toggle
+- Mobile-friendly navigation menu
+- Project filtering by category (All, Data Science, and Concept)
+- Contact form with input validation
+- Active navigation links while scrolling
+- Scroll-based reveal animations
+- Loading animation when opening the website
+- Automatically updated copyright year
 
-- Responsive desktop, tablet, and mobile layouts
-- Light and dark themes with saved preference
-- Smooth scrolling and active navigation
-- Scroll-reveal animations
-- Project category filtering
-- Accessible mobile navigation
-- Client-side contact form validation
-- Reduced-motion support
+## Technologies Used
+- HTML5 – Website structure and content
+- CSS3 – Styling, responsive layout, animations, and themes
+- Bootstrap 5 – Responsive design support
+- JavaScript – Interactive features and form validation
 
-## Run locally
+## How to Run
+1. Keep all three files in the same folder.
+2. Open `index.html` in a web browser.
+3. Navigate through the sections to explore the portfolio.
+4. Try the theme toggle and project filter buttons.
 
-### Option 1: Open directly
+## Project Files
+- `index.html` – Contains the structure and content of the portfolio.
+- `style.css` – Contains the styling, colors, responsive design, and animations.
+- `script.js` – Handles theme switching, navigation, project filtering, contact form validation, scroll effects, and the loading animation.
 
-Open `index.html` in VS Code with the Live Server extension.
+## Author
+**Paragati Satwika**
 
-### Option 2: Local server
-
-From the project folder, run:
-
-```powershell
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Customize
-
-Update the personal details, education, skills, project links, and contact address in `index.html`. The visual theme is controlled by `style.css`, and interactions are implemented in `script.js`.
-
-## Project structure
-
-```text
-.
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+B.Tech – Computer Science and Engineering  
+Stanley College of Engineering & Technology for Women, Hyderabad.
